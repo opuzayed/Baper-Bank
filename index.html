@@ -12,13 +12,15 @@
         <h1 class = "text-5xl text-center mt-4">Welcome to your <span class = "font-semibold text-amber-500">Baap er Bank</span></h1>
     </header>
     <main>
-        <section>
-           <h3>Please Login</h3> 
+        <section class="bg-emerald-100 w-9/12 mx-auto mt-12 p-8">
+           <h3 class = "text-3xl font-semibold mb-4">Please Login</h3> 
            <div>
-            <input type="text" name="" id="">
-            <input type="password" name="" id="">
+            <input class="w-9/12 block mb-3 rounded px-3" type="text" name="" id="user-email" placeholder="Your Email Address">
+            <input class="w-9/12 block mb-3 rounded px-3" type="password" name="" id="user-password" placeholder="Your Password">
+            <button id = "btn-submit" class="bg-cyan-500 hover:bg-sky-700 px-8 py-2 text-white font-medium rounded-lg">Submit</button>
            </div>
         </section>
     </main>
+    <script src="/js/login.js"></script>
 </body>
 </html>
